@@ -1,6 +1,8 @@
-.kotak{
+#kotak1{
     width:100px;
     height:100px;
-    background:rgb(255, 0, 0);
-    border:solid 3px black;
-    }
+    position: fixed;
+    background-color:rgb(255, 0, 0);
+    border-color: black;
+    border:solid 3px;
+}
