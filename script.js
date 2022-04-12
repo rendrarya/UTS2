@@ -9,7 +9,7 @@ document.onmousemove = (event) => {
     function random(angka){
         return Math.floor(Math.random() * angka)
     }
-    kotak1.onclick = function () {
+    document.onclick = function () {
     ganti = "rgb("+random(255)+", "+random(255)+", "+random(255)+")";
     kotak1.style.backgroundColor = ganti;
     }
